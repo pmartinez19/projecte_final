@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Projecte final:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La idea es realitzar una web basada en php (symfony), javascript amb un framework (React o angular). Html5, css amb bootstrap o un altre.
 
-## Available Scripts
+El lloc on allotjar el servidor estic plantejant aws. Com a base de dades mysql. 
 
-In the project directory, you can run:
+### El contingut de la web estara destinat a oferir serveis per part d’empreses / autònoms a particulars: 
 
-### `npm start`
+- Formació
+- Reformes
+- Neteja
+- Fisioterapia
+- etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Poden ser de qualsevol tipus de categoria. Els usuaris serán principalment empreses, autònoms i particulars. S’oferira una pasarela de pagament via visa, paypal. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Desprès afegir un chat per poder contactar tan de forma escrita com webcam, so. 
 
-### `npm test`
+També es podria afegir serveis entre particulars, estil dona gran necessita algú del barri per posar un estand. Ofereix a canvi una lasanya o el que sigui. El problema que veig en aquest afegit es la possibilitat de realitzar economia submergida. Però tampoc hi ha cap garantia que els autònoms un cop contactin amb el particular no cobrin sota mà. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ofertes exclusives per utilitzar el servei de pasarela de pagament. En el que rebem un % per operació. Les ofertes sortiran de la butxaca del autònom / empresa. Com millor sigui el descompte millor sera el posicionament en els resultats de cerca del servei al web. Així com poder pagar directament serveis premium al web per millor posicionament. 
 
-### `npm run build`
+Accés login contrasenya les sessions , preferències establides amb cookies amb identificador random d’un sol ús. Aquest identificador serà guardat a la base de dades que relaciona tots els moviments dels usuaris amb el seu compte. Així és més fàcil mantenir la privacitat de les dades. Guardar / enviar facturas fins un límite de gb + pagar (Pensat per empresa / autònom).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Encriptació del acces client. Personalització del perfil de l'usuari. Valoració dels serveis prestats. (Particular valoració de bon client?) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Objectius | Aprenentatge | Tasca | Tecnología |
+| ----------- | ----------- | ----------- | ----------- |
+| Creació bbdd | Organització i desenvolupament del coneixement| Diseny i implementació | MySQL InnoDB|
+| Maquetació Web | Millorar a presentar idees | Diseny | Figma |
+| Creació de SVG | Apredre a fer assets propis | Diseny | Ai |
+| MVC | Aprendre a estructurar codi en MVC | Desenvolupament AW | php oop|
+| Front end interactiu | Desenvolupar interface asyncrona per peticions client | Desenvolupament AW | JS oop|
+| Desenvolupar una API | Entendre com funciona una API | Desenvolupar | API REST |
+| Desplegament AW | Com es desplega una AW | Deployment | AWS |
+| Migració de backend | Com migrar una tecnologia | Migració | Symfony |
+| Migració de front end | Com migrar una tecnologia | Migració | REACT |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
